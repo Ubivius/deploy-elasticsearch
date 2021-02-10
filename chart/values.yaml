@@ -1,1 +1,9 @@
-antiAffinity: "soft" #Default is "hard", but you need three Kubernetes nodes to respect the default "hard" affinity settings
+resources:
+  requests:
+    cpu: "100m"
+    memory: "1Gi"
+  limits:
+    cpu: "1000m"
+    memory: "2Gi"
+
+#antiAffinity: "soft" #Default is "hard", but you need three Kubernetes nodes to respect the default "hard" affinity settings
