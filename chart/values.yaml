@@ -1,9 +1,7 @@
 resources:
   requests:
-    cpu: "100m"
-    memory: "1Gi"
+    cpu: "100m" # default 1000m
+    memory: "1Gi" # default 2Gi
   limits:
-    cpu: "1000m"
-    memory: "2Gi"
-
-#antiAffinity: "soft" #Default is "hard", but you need three Kubernetes nodes to respect the default "hard" affinity settings
+    cpu: "1000m" # default 1000m
+    memory: "2Gi" # default 2Gi
