@@ -23,7 +23,7 @@ $ helm repo update
 To install the chart with the release name `elasticsearch`:
 
 ```console
-$ helm install elasticsearch --version <version> elastic/elasticsearch -f values.yaml
+$ helm install elasticsearch --version <version> elastic/elasticsearch -f chart/values.yaml
 ```
 
 ## Uninstalling the Chart
