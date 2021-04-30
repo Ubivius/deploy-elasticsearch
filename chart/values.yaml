@@ -1,0 +1,7 @@
+resources:
+  requests:
+    cpu: "100m" # default 1000m
+    memory: "1Gi" # default 2Gi
+  limits:
+    cpu: "1000m" # default 1000m
+    memory: "2Gi" # default 2Gi
