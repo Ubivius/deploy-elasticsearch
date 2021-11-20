@@ -5,3 +5,6 @@ resources:
   limits:
     cpu: "1000m" # default 1000m
     memory: "2Gi" # default 2Gi
+
+readinessProbe:
+  initialDelaySeconds: 200
